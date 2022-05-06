@@ -4,19 +4,19 @@
   "main": "index.js",
   "repository": "https://github.com/antoniodecastroalves/c2.1-IniciandoApi.git",
   "author": "Antonio Alves <antoniodecastroalves@gmail.com>",
-  "license": "MIT",
+  "license": "MIT", 
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli"
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "dependencies": {
     "csv-parse": "^4.16.3",
     "express": "^4.17.1",
     "multer": "^1.4.3",
-    "pg": "^8.7.3",
+    "pg": "^8.5.1",
     "reflect-metadata": "^0.1.13",
     "swagger-ui-express": "^4.1.6",
-    "typeorm": "^0.2.45",
+    "typeorm": "^0.2.31",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
